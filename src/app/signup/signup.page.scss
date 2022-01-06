@@ -1,0 +1,85 @@
+.location{
+    color:#171717;
+    font-size: 12px;
+    margin:5px;
+ }
+ .get-started{
+ font-size: 20px;
+ color: #171717;
+ margin:8px;
+ }
+ .create-account{
+ font-size: 10px;
+ margin:8px;
+ }
+ .tearmsAndCondition{
+     font-size:10px;
+     margin:5px;
+     cursor: pointer;
+ }
+ // .input-field{
+ //     margin-left :-10px;
+    
+ // }
+ .signup-btn{
+     border-radius: 5px !important;
+     width: 50%;
+     height:35px;
+     background: linear-gradient(to left, #23a6d5
+  0%, #23d5ab
+  100%);
+     color:#fff;
+     border:1px solid #fff;
+ }
+ .verify-btn{
+    border-radius: 5px !important;
+    margin:10px;
+    background: linear-gradient(to left, #23a6d5
+  0%, #23d5ab
+  100%);
+    color:#fff;
+    border:1px solid #fff; 
+ }
+ .send-otp-btn{
+    border-radius: 5px !important;
+    background: linear-gradient(to left, #23a6d5
+    0%, #23d5ab
+    100%);
+    color:#fff;
+    border:1px solid #fff;
+    margin-bottom: 2px !important;
+ }
+
+ .tearmsAndCondition{
+     font-size:10px;
+ }
+ ion-label{
+     font-size:15px  !important;
+     color:#4c4c4d !important;
+ }
+
+ .condition{
+     font-size: 12px;
+     color:gray;
+     padding: 15px;
+ }
+ .container{
+     margin-top:95px;
+ }
+ ion-item{
+     border-bottom: 1px solid #fff !important;
+    --highlight-background: #23d5ab !important;
+ }
+ ion-content {
+     background-color:#fff !important;
+     // background: linear-gradient(to bottom, darkturquoise
+     // 0%, #d1f2e7
+     // 100%) !important;
+ 
+     --offset-bottom: auto!important;
+     --overflow: hidden;
+     overflow: auto;
+     &::-webkit-scrollbar {
+         display: none;
+     }
+   }

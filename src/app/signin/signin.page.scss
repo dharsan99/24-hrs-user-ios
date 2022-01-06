@@ -1,0 +1,68 @@
+#logo{
+    margin: 5px;
+    width: 90%;
+    height:90%;
+    border-radius: 50%;
+}
+.dot {
+    text-align: center;
+    margin-top: -20px;
+    height: 120px !important;
+    width: 125px !important;
+   
+    background-color: #fff;
+    border-radius: 20%;
+    display: inline-block;
+    box-shadow: 1px 1px 36px -9px #ccc;
+    // border:2px solid #23d5ab;
+  }
+.signin-btn{
+    background-color: #23d5ab;
+    color:#fff;
+    text-align: right;
+    margin:10%;
+    padding: 5px;
+}
+.facebook-btn{
+    background-color: #fff;
+    color:#23d5ab;
+    text-align: center;
+    width: 90%;
+    border:none;
+    margin:10px;
+    font-size: 15px;
+}
+@media screen and (max-width: 300px) {
+    .signin-btn {
+        text-align: center;
+        margin-left: -15px !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .signin-btn {
+        margin-left: 55px !important;
+    }
+  }
+ion-label{
+    font-size:12px  !important;
+    color:#4c4c4d !important;
+}
+ion-item{
+    --background: transparent !important;
+}
+ion-input:focus{
+    --border-bottom: 2px solid #23d5ab !important;
+}
+ion-content {
+    background-color:#fff !important;
+    // background: linear-gradient(to bottom, darkturquoise
+    // 0%, #d1f2e7
+    // 100%) !important;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }

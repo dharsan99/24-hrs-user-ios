@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <div>
+    </div>
+    <div class="row">
+      <div class="col-1 mt-4 ">
+        <ion-icon (click)="backToHome()" style="width:30px;height:25px;color:#fff;margin-top:11px;cursor: pointer;" name="arrow-back-outline"></ion-icon>
+      </div>
+      <div class="col-11 mt-4 ">
+        <ion-searchbar (keypress)="searchProduct()"  [(ngModel)]="term" type="text"></ion-searchbar>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list *ngIf="isVisible" >
+  <ion-item  *ngFor="let search of list |filter:term">
+    <ion-label >{{search.firstName}}</ion-label>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-left" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1H3.707l10.147 10.146a.5.5 0 0 1-.708.708L3 3.707V8.5a.5.5 0 0 1-1 0v-6z"/>
+    </svg>
+  </ion-item>
+</ion-list>
+
+<lottie-player *ngIf="isShown" (click)="getPicture()" src="https://assets6.lottiefiles.com/packages/lf20_e2zcy5pu.json" background="transparent"
+speed="1.5" style="width:100%;margin-left:0px;" loop autoplay></lottie-player>
+</ion-content>

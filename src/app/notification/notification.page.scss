@@ -1,0 +1,26 @@
+
+.dot {
+    margin: 10px;
+    height: 25px;
+    width: 55px;
+    background: linear-gradient(to left, #23a6d5
+    0%, #23d5ab
+    100%);
+    color:#fff;
+    border-radius: 10%;
+    display: inline-block;
+  }
+
+ion-content {
+    background-color:#F4F7FA !important;
+    // background: linear-gradient(to bottom, #8cdbe2
+    // 0%, #d1f2e7
+    // 100%) !important;
+  
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }

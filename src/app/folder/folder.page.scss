@@ -1,0 +1,195 @@
+.card{
+  border:1px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px 4px #ccc;
+  margin-bottom: 20px;
+  margin-right:4px;
+  cursor: pointer;
+}
+
+#social-media-icon-div{
+  border:1px solid #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px #ccc;
+}
+p{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#offer{
+  padding: 2px !important;
+  margin: 5px !important;
+}
+
+.report-seller-btn{
+  background: linear-gradient(to right, #ff80a0
+  0%, #eb154b
+  100%);
+  color:#fff;
+  margin-left:10%;
+  
+}
+
+#product_img{
+  border:1px solid #FFFFFF;
+  border-radius: 15%;
+  box-shadow:3px 3px 16px 4px #ccc;
+  width: 85px;
+  height:75px;
+}
+#share{
+ color:#fff !important;
+}
+#kg{
+  background: linear-gradient(to left, #23a6d5
+  0%, #23d5ab
+  100%);
+  color:#fff;
+  margin-left: -15px !important;
+  border-radius: 3px !important;
+  font-size: 10px !important;
+  margin-top:4px;
+ 
+
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  background: linear-gradient(to left, #23a6d5
+  0%, #23d5ab
+  100%);
+  color:#fff;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow:3px 3px 16px 4px #ccc;
+  
+}
+
+
+#test{
+  border:1px solid #fff;
+  box-shadow:3px 3px 16px 4px #ccc;
+  margin-left: 8px !important;
+  margin-right:6px !important;
+  margin: 6px;
+  width: 45%;
+  background-color: #fff !important;
+  border-radius: 2px;
+}
+
+#heart{
+ margin-left: -10px !important;
+ border-radius: 50% !important;
+ height:20px;
+ width: 20px;
+}
+.green {
+  color: #404040 !important;
+}
+
+.red {
+ color: red !important;
+ border-radius: 55%;
+ padding: 2px;
+}
+
+.btn-default {
+  color: white;
+  background-color: blue;
+
+}
+
+.btn-change {
+  color: Red;
+  background-color: white;
+}
+
+ion-chip.active{ 
+  color: red !important;
+  background: linear-gradient(to right, #555c59
+  0%, #1d1f1e
+  100%);
+}
+
+ion-slides {
+  
+  height: 50px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  background-color: #fff !important;
+}
+
+.featured-slide {
+  width: 50% !important;
+  // box-shadow: 3px -2px 11px 3px#ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .info {
+    margin: 50px !important;
+    margin-left: 0 !important;
+    margin-right: 0px !important;
+    font-size: 17px !important ;
+    color: #6E7989;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+// ion-slides{
+//   height:150px !important;
+// }
+.div-slides{    
+  bottom: 0;
+  width: 100%;    
+  // height: 160px;
+  display: block;        
+  background-color: #e6e6e6;
+  img{
+      // width: 55px;
+      // height: 50px;
+      // object-fit: contain;
+      margin:10px;
+      margin-right: 2px !important;
+      border-radius: 75px ;
+  }
+}
+.tam-title{
+  margin-top: -0.5%;
+  font-size: 80%;
+  font-weight: bold;
+  color: #6E7989;
+  // margin-left: -75px !important;
+}
+ion-slide{
+  margin-left:-20px !important;
+  margin-right:23px !important; 
+}  
+
+ion-badge{
+  z-index: 999 !important;
+}
+
+#slideItem.active{
+  color: #23d5ab;
+  font-weight: 700;
+}
+
+ion-content {
+  background-color:#F4F7FA !important;
+  // background: linear-gradient(to bottom, #8cdbe2
+  // 0%, #d1f2e7
+  // 100%) !important;
+
+  --offset-bottom: auto!important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}

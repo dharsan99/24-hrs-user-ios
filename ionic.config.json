@@ -1,0 +1,12 @@
+{
+  "name": "userapp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [{
+    "path": "/24Hrs/api",
+    "proxyUrl": "https://dhya.in/24Hrs/api"
+  }]
+}

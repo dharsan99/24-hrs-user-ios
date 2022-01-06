@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  .myproducts-btn{
+    margin:15px;
+    background: linear-gradient(to left, #23a6d5
+    0%, #23d5ab
+    100%);
+    border:1px solid #fff;
+    border-radius: 5px;
+  }
+  ion-list{
+    background-color: #ebf9f9 !important;
+  }
+  ion-item{
+    background-color: #ebf9f9 !important;
+  }
+  .card{
+    background-color: #fff;
+    text-align: center;
+    border:1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    margin:5px;
+  }
+  .myproduct-div{
+    background-color: #fff;
+    border:1px solid #fff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    width:96% !important;
+    margin:5px;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    border:1px solid #fff;
+    
+  }
+  #SelectedList{
+    background-color: #fff;
+    border:1px solid #fff;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 4px 4px 4px 4px #fff;
+   
+  }
+  ion-chip{
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 5.5);
+    margin-bottom: 10px;
+  }
+  ion-label{
+      font-size: 18px;
+  }
+  ion-chip.active{ 
+    color: #fff !important;
+    background: linear-gradient(to right, #555c59
+    0%, #1d1f1e
+    100%);
+  }
+
+  ion-content {
+    background-color:#fff !important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }
+
+
+  

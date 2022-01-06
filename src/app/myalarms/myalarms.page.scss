@@ -1,0 +1,38 @@
+.card{
+  height: 50px;
+}
+.dot {
+    margin: 2px;
+    height: 27px;
+    width: 30px;
+    background: linear-gradient(to left, #23a6d5
+    0%, #23d5ab
+    100%);
+    color:#fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .btn-set-new-alarm{
+    background: linear-gradient(to left, #23a6d5
+    0%, #23d5ab
+    100%);
+    color:#fff;
+    width: 80%;
+    margin:15px;
+    margin-left: -20px;
+  }
+
+ion-content {
+    background-color:#F4F7FA !important;
+    // background: linear-gradient(to bottom, #8cdbe2
+    // 0%, #d1f2e7
+    // 100%) !important;
+  
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }
